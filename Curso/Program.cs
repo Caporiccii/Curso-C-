@@ -1,4 +1,5 @@
-﻿using Curso.TestPipeline;
+﻿using Curso.ExerciciosLogica;
+using Curso.TestPipeline;
 using System;
 
 namespace Curso
@@ -10,14 +11,19 @@ namespace Curso
         Exercicio1 ex = new Exercicio1();        
         ex.Soma();
 
-        MembersPipe mp = new MembersPipe();
+        SaidaDeDados saida = new SaidaDeDados();
 
-            mp.DownloadString();
-            mp.CreatWordList();
-            mp.FilterWordList();
-            mp.FindReverseWord();
-            mp.Print();
+            saida.EscreveTextoExercicio();
+
           
+        //MembersPipe mp = new MembersPipe();
+
+            //    mp.DownloadString();
+            //    mp.CreatWordList();
+            //    mp.FilterWordList();
+            //    mp.FindReverseWord();
+            //    mp.Print();
+
         }
     }
 }
