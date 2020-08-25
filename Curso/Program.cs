@@ -26,6 +26,9 @@ namespace Curso
             Console.WriteLine("Atribuição " + a );
             //fim test//
 
+            Console.WriteLine("-----------------------------------------aula 23-------------------------------------------------");
+            EntradaDeDados entradaDeDados = new EntradaDeDados();
+            entradaDeDados.LerInfoUsuario();
 
             //MembersPipe mp = new MembersPipe();
 
