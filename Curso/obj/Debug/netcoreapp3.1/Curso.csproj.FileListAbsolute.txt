@@ -1,0 +1,13 @@
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\Curso.exe
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\Curso.deps.json
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\Curso.runtimeconfig.json
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\Curso.runtimeconfig.dev.json
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\Curso.dll
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\Curso.pdb
+C:\C#\Curso-CSharp\Curso\bin\Debug\netcoreapp3.1\System.Threading.Tasks.Dataflow.dll
+C:\C#\Curso-CSharp\Curso\obj\Debug\netcoreapp3.1\Curso.csprojAssemblyReference.cache
+C:\C#\Curso-CSharp\Curso\obj\Debug\netcoreapp3.1\Curso.AssemblyInfoInputs.cache
+C:\C#\Curso-CSharp\Curso\obj\Debug\netcoreapp3.1\Curso.AssemblyInfo.cs
+C:\C#\Curso-CSharp\Curso\obj\Debug\netcoreapp3.1\Curso.csproj.CopyComplete
+C:\C#\Curso-CSharp\Curso\obj\Debug\netcoreapp3.1\Curso.dll
+C:\C#\Curso-CSharp\Curso\obj\Debug\netcoreapp3.1\Curso.pdb
