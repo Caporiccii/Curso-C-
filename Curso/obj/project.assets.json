@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\Curso-CSharp\\Curso\\Curso.csproj",
+      "projectUniqueName": "C:\\Projetos\\Curso-CSharp\\Curso\\Curso.csproj",
       "projectName": "Curso",
-      "projectPath": "C:\\C#\\Curso-CSharp\\Curso\\Curso.csproj",
+      "projectPath": "C:\\Projetos\\Curso-CSharp\\Curso\\Curso.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\Curso-CSharp\\Curso\\obj\\",
+      "outputPath": "C:\\Projetos\\Curso-CSharp\\Curso\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
