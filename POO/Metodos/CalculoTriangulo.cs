@@ -13,6 +13,7 @@ namespace POO.Metodos
         private double _areaY;
         private Triangulo _trianguloX;
         private Triangulo _trianguloY;
+        private const double NUMBER_DIVISION = 2.0;
 
 
 
@@ -48,13 +49,13 @@ namespace POO.Metodos
             return area;
         }
         public double CalculoPerimetro() => _formulaPerimetroX =
-         (_trianguloX.BaseTriangulo + _trianguloX.LadoEsquerdoTriangulo + _trianguloX.LadoDireitoTriangulo) / 2.0;
+         (_trianguloX.BaseTriangulo + _trianguloX.LadoEsquerdoTriangulo + _trianguloX.LadoDireitoTriangulo) / NUMBER_DIVISION;
 
         public double CalculaArea() => _areaX = Math.Sqrt(_formulaPerimetroX * (_formulaPerimetroX - _trianguloX.BaseTriangulo)
                 * (_formulaPerimetroX - _trianguloX.LadoEsquerdoTriangulo) * (_formulaPerimetroX - _trianguloX.LadoDireitoTriangulo));
 
         public double CalculoPerimetroY() => _formulaPerimetroY =
-       (_trianguloY.BaseTriangulo + _trianguloY.LadoEsquerdoTriangulo + _trianguloY.LadoDireitoTriangulo) / 2.0;
+       (_trianguloY.BaseTriangulo + _trianguloY.LadoEsquerdoTriangulo + _trianguloY.LadoDireitoTriangulo) / NUMBER_DIVISION;
 
         public double CalculaAreaY() => _areaY = Math.Sqrt(_formulaPerimetroY * (_formulaPerimetroY - _trianguloY.BaseTriangulo)
                 * (_formulaPerimetroY - _trianguloY.LadoEsquerdoTriangulo) * (_formulaPerimetroY - _trianguloY.LadoDireitoTriangulo));
