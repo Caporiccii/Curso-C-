@@ -1,4 +1,5 @@
-﻿using POO.Metodos;
+﻿using POO.EX_Aula_60;
+using POO.Metodos;
 using System;
 using System.Globalization;
 
@@ -8,6 +9,43 @@ namespace POO
     {
         static void Main(string[] args)
         {
+            AccountService accountService = new AccountService();
+            Account account = new Account();
+
+            Console.WriteLine("Entre com o numero da conta");
+            account.AccountNumber = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entre com o titular da conta");
+            account.AccountOwner = Console.ReadLine();
+
+            Console.WriteLine("Haverá depósito inicial (s/n)?");
+             account.FirstDepositExist = Console.ReadLine();
+
+            if (account.FirstDepositExist.Equals("s"))
+            {
+                Console.WriteLine("Entre com o valor do depósito inicial: ");
+                account.Total = account.FirstDeposit = double.Parse(Console.ReadLine());
+                Console.WriteLine("Dados da Conta: ");
+                account.ToString();
+            }
+            else
+            Console.WriteLine("Dados da Conta Atualizados: ");
+            Console.WriteLine(account.ToString());
+
+            Console.WriteLine("Entre com o valor do depósito: ");
+            account.Total += account.Deposit = double.Parse(Console.ReadLine());
+            Console.WriteLine("Dados da Conta Atualizados: ");
+            Console.WriteLine(account.ToString());
+
+            Console.WriteLine("Entre com o valor de saque: ");
+            account.WithdrawlValue = double.Parse(Console.ReadLine());
+            var saque = account.Total - account.WithdrawlValue;
+            account.Total = saque - 5.00;
+            Console.WriteLine("Dados da Conta Atualizados: ");
+            Console.WriteLine(account.ToString());
+
+
+
             //double xA, xB, xC, yA, yB, yC;
             //Console.WriteLine("Entre com as medidas do triângulo X:");
             //xA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -32,9 +70,11 @@ namespace POO
             //    Console.WriteLine("Maior área: Y");
             //}
 
-            CalculoTriangulo calculoTriangulo = new CalculoTriangulo();
+            //CalculoTriangulo calculoTriangulo = new CalculoTriangulo();
 
-            calculoTriangulo.Handle();
+            //calculoTriangulo.Handle();
+
+
         }
     }
 }
