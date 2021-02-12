@@ -5,7 +5,7 @@ using System.Text;
 
 namespace POO.EX_Aula_60
 {
-    public class Account
+    public struct Account
     {
         public int AccountNumber { get; set; }
         public string AccountOwner { get; set; }
@@ -15,7 +15,7 @@ namespace POO.EX_Aula_60
         public string FirstDepositExist { get; set; }
         public double WithdrawlValue { get; set; }
 
-        public override string ToString() => string.Format($"Conta: {AccountNumber}, Titular: {AccountOwner}, Saldo: R$ {Total}", "F2", CultureInfo.InvariantCulture); 
+        public override string ToString() => string.Format($"Conta: {AccountNumber}, Titular: {AccountOwner}, Saldo: R$ {Total.ToString("F2", CultureInfo.InvariantCulture)}"); 
 
     }
 }

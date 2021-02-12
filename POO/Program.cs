@@ -10,7 +10,7 @@ namespace POO
         static void Main(string[] args)
         {
             AccountService accountService = new AccountService();
-            Account account = new Account();
+            Account account =  new Account();
 
             Console.WriteLine("Entre com o numero da conta");
             account.AccountNumber = int.Parse(Console.ReadLine());
@@ -39,8 +39,8 @@ namespace POO
 
             Console.WriteLine("Entre com o valor de saque: ");
             account.WithdrawlValue = double.Parse(Console.ReadLine());
-            var saque = account.Total - account.WithdrawlValue;
-            account.Total = saque - 5.00;
+            account.Total = accountService.WithdrawlAccount(account.Total, account.WithdrawlValue, 5.00);
+           
             Console.WriteLine("Dados da Conta Atualizados: ");
             Console.WriteLine(account.ToString());
 
